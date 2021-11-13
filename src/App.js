@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { Button } from "antd";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="header">Portfolio</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and saveeload.
         </p>
+        <Button type="primary">yoyoyo</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
